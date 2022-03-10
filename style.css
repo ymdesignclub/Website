@@ -71,6 +71,40 @@ h1{
   text-align: center;
 }
 
+.content .rocket .icon img{
+  border: 3px solid #555;
+  border-radius: 35px;
+  margin-bottom: 15px;
+}
+
+.content .rocket {
+  margin-bottom: 80px;
+}
+
+.content .rocket a{
+  font-size: 40px;
+  color: #FFA500;
+  text-decoration-line: none;
+}
+
+.content .rocket a:hover{
+  font-size: 40px;
+  color: #ffbd42;
+  text-decoration-line: underline;
+}
+
+.content .rocket h2{
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 35px;
+}
+
+.content .rocket p{
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
 .content .box1{
   display: inline-block;
   background-color: #e9ecef;
