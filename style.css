@@ -160,7 +160,7 @@ footer .contact p{
   display: inline-block;
 }
 
-@media only screen and (max-device-width: 400px) {
+@media only screen and (max-device-width: 440px) {
   *{
     margin:0;
     padding:0;
