@@ -55,6 +55,7 @@
   border-radius: 25px;
   width: 60%;
   padding: 30px;
+  display: inline-block
 }
 
 body {
