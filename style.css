@@ -22,10 +22,7 @@
   font-family: Smooch;
   src: url(fonts/Smooch.ttf);
 }
-.text
-{
- overflow: hidden 
-}
+
 .header .text{
   font-size: 40px;
   font-family: Atarian, sans-serif;
@@ -55,6 +52,7 @@
   border-radius: 25px;
   width: 60%;
   padding: 30px;
+  overflow : hidden
 }
 
 body {
