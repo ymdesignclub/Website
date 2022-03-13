@@ -118,14 +118,6 @@ h1{
   height: 400px;  
 }
 
-.content .form{
-  height: auto;
-  width: 500px;
-  background-color: #e9ecef;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .content .box3{
   display: inline-block;
   background-color: #e9ecef;
@@ -133,7 +125,14 @@ h1{
   margin-bottom: 30px;
   width: 500px;
   height: 400px;  
-  transform: translate(0, -30px)
+}
+
+.content .form{
+  height: auto;
+  width: 500px;
+  background-color: #e9ecef;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media only screen and (max-device-width: 440px) {
