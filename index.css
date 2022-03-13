@@ -50,7 +50,6 @@
 body {
   height: 100%;
   width: 100%;
-  position: relative;
 }
 
 h1{
@@ -59,10 +58,11 @@ h1{
   font-size: 38px;
 }
 
-.content{
-  font-family: Smooch, sans-serif;
-  position: relative;
-  text-align: center;
+.content {
+    font-family: Smooch, sans-serif;
+    position: relative;
+    text-align: center;
+    z-index: 1;
 }
 
 .content .rocket .icon img{
