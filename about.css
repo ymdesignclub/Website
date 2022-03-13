@@ -125,32 +125,6 @@ h1{
   height: 400px;  
 }
 
-footer{
-  display: inline-block;
-  font-size: 22px;
-  font-family: Smooch, sans-serif;
-  text-align: center;
-  color: #e9ecef;
-  background-color: #343a40;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-footer .contact{
-  margin-top: 35px;
-  margin-bottom: 35px;
-}
-
-footer .contact p{
-  margin-top: 20px;
-  margin-left: 2%;
-  margin-right: 2%;
-  display: inline-block;
-}
-
 @media only screen and (max-device-width: 440px) {
   *{
     margin:0;
