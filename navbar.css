@@ -11,7 +11,8 @@
 
 .navbar li {
   display: inline-block;
-  transform: translate(0%,-1%);
+  transform: translate(0%,-2%);
+  border: 0px;
 }
 
 .navbar li a {
@@ -20,7 +21,7 @@
   line-height: 42px;
   font-size: 35px;
   color: white;
-  padding: 18px 32px;
+  padding: 19px 32px;
   text-decoration: none;
 }
 
@@ -30,5 +31,5 @@
 
 .navbar li a:hover {
   background-color: #262626;
-}
+} 
 
