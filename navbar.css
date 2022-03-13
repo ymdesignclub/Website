@@ -10,9 +10,9 @@
 }
 
 .navbar li {
-  display: inline-block;
-  transform: translate(0%,-2%);
-  border: 0px;
+    display: inline-block;
+    transform: translate(0%,-2%);
+    border: 0px;
 }
 
 .navbar li a {
@@ -27,11 +27,11 @@
 }
 
 .active {
-  background-color: #111;
+    background-color: #111;
 }
 
 .navbar li a:hover {
-  background-color: #262626;
+     background-color: #262626;
 }
 
 .sticky {
