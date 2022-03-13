@@ -65,6 +65,12 @@ h1{
     z-index: 1;
 }
 
+.content p {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
 .content .rocket .icon img{
     border: 3px solid #FFFF;
     border-radius: 35px;
