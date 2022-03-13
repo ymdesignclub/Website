@@ -118,14 +118,13 @@ h1{
   height: 400px;  
 }
 
-.content .box3{
-  display: inline-block;
-  background-color: #e9ecef;
-  margin: 2%;
-  margin-bottom: 30px;
-  width: 500px;
-  height: 400px;  
-  transform: translate(0, -30px)
+.content .box3 {
+    display: inline-block;
+    background-color: #e9ecef;
+    margin: 2%;
+    margin-bottom: 30px;
+    width: 500px;
+    height: 400px;
 }
 
 .content .box4{
