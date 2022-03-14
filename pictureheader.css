@@ -8,14 +8,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  object-fit: cover;
   background-image: url("image1.jpg");
   background-repeat: no-repeat;
-  width: 100%;
-  height: clamp(400px, 200px, 100px);
+  height: 480px;
 }
 
 .header .title .text{
-  font-size: clamp(80px, 25px, 12px);
+  font-size: clamp(1.5rem, 7vw, 8rem);
   font-family: Above, sans-serif;
   color: white;
   text-align: center;
