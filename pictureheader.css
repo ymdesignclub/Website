@@ -1,21 +1,22 @@
+/*.header .title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}*/
+
 .header .title{
   display: flex;
-  float: right;
-}
-
-.header .title .image img{
   justify-content: center;
   align-items: center;
-  width: clamp(100%, 50%, 25%);
-  object-fit: cover;
-  filter: brightness(60%); 
-  margin: 0px;
+  background-image: url("image1.jpg");
+  background-position: 40%, 40%; 
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
 }
 
-.header .title .image .text{
-  justify-content: center;
-  align-items: center;
-  font-size: clamp(50px, 25px, 12px);
+.header .title .text{
+  font-size: clamp(80px, 25px, 12px);
   font-family: Above, sans-serif;
   color: white;
   text-align: center;
