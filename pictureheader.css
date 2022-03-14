@@ -14,17 +14,18 @@
   background-position: center;
 }
 
-.header .title .text{
-  font-size: clamp(1.5rem, 7vw, 8rem);
-  font-family: Above, sans-serif;
-  color: white;
-  text-align: center;
-  border: 7px;
-  border-style: solid;
-  border-color: white;
-  border-radius: 25px;
-  padding: 20px;
-  margin: 200px;
+.header .title .text {
+    font-size: clamp(1.5rem, 7vw, 8rem);
+    font-family: Above, sans-serif;
+    color: white;
+    text-align: center;
+    border: 7px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 25px;
+    padding: 40px;
+    margin: 200px;
+    text-shadow: 3px 3px #FFA500;
 }
 
 /*.header .image img{
