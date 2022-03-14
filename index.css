@@ -76,7 +76,7 @@ h1{
     background-color: #e9ecef;
     margin: 2%;
     margin-bottom: 30px;
-    width: 500px;
+    width: 480px;
     height: 400px;
 }
 
@@ -85,7 +85,7 @@ h1{
     background-color: #e9ecef;
     margin: 2%;
     margin-bottom: 30px;
-    width: 500px;
+    width: 480px;
     height: 400px;
 }
 
@@ -94,16 +94,7 @@ h1{
     background-color: #e9ecef;
     margin: 2%;
     margin-bottom: 30px;
-    width: 500px;
-    height: 400px;
-}
-
-.content .box4 {
-    display: inline-block;
-    background-color: #e9ecef;
-    margin: 2%;
-    margin-bottom: 30px;
-    width: 500px;
+    width: 480px;
     height: 400px;
 }
 
