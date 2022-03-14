@@ -8,10 +8,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  object-fit: cover;
+  width: 100%;
   background-image: url("image1.jpg");
   background-repeat: no-repeat;
-  height: 480px;
+  background-size: 100% auto;
+  aspect-ratio: 16/9;
 }
 
 .header .title .text{
@@ -23,6 +24,7 @@
   border-style: solid;
   border-color: white;
   border-radius: 25px;
+  margin: 200px;
 }
 
 /*.header .image img{
