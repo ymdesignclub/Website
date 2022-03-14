@@ -71,12 +71,40 @@ h1{
     font-size: 24px;
 }
 
-.content .box {
+.content .box1 {
     display: inline-block;
     background-color: #e9ecef;
     margin: 2%;
     margin-bottom: 30px;
-    
+    width: 500px;
+    height: 400px;
+}
+
+.content .box2 {
+    display: inline-block;
+    background-color: #e9ecef;
+    margin: 2%;
+    margin-bottom: 30px;
+    width: 500px;
+    height: 400px;
+}
+
+.content .box3 {
+    display: inline-block;
+    background-color: #e9ecef;
+    margin: 2%;
+    margin-bottom: 30px;
+    width: 500px;
+    height: 400px;
+}
+
+.content .box4 {
+    display: inline-block;
+    background-color: #e9ecef;
+    margin: 2%;
+    margin-bottom: 30px;
+    width: 500px;
+    height: 400px;
 }
 
 .content .rocket .icon img{
