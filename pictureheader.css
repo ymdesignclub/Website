@@ -8,11 +8,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
   background-image: url("image1.jpg");
   background-repeat: no-repeat;
-  background-size: 100% auto;
-  aspect-ratio: 16/9;
+  background-size: cover;
 }
 
 .header .title .text{
