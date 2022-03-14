@@ -13,7 +13,7 @@
 
 .header .banner .mainbutton img{
   border: 3px solid #FFFF;
-  borderwidth: 10%;
+  border-width: 10px;
   border-radius: 20%;
   width: 45px;
   height: 45px;
