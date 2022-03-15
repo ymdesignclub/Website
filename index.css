@@ -89,15 +89,6 @@ h1{
     height: 400px;
 }
 
-.content .box3 {
-    display: inline-block;
-    background-color: #e9ecef;
-    margin: 2%;
-    margin-bottom: 30px;
-    width: 480px;
-    height: 400px;
-}
-
 .content .rocket .icon img{
     border: 3px solid #FFFF;
     border-radius: 35px;
