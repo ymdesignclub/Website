@@ -24,7 +24,7 @@
     border-color: white;
     border-radius: 25px;
     padding: 32px;
-    margin: 200px;
+    margin: clamp(50px, 9.5vw, 200px);
     text-shadow: 3px 3px gray;
     box-shadow: 3px 3px gray;
     /*text-shadow: -2px -2px 0 cyan, 3px 3px 0 magenta;*/
