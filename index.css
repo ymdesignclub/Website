@@ -53,16 +53,24 @@ body {
 }
 
 h1{
-    margin-top: 40px;
-    margin-bottom: 40px;
     font-size: 38px;
+    text-align: center;
 }
 
 .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
     font-family: Smooch, sans-serif;
-    position: relative;
-    text-align: center;
+    /*position: relative;
+    text-align: center;*/ 
     z-index: 1;
+}
+
+.content .container{
+    margin-top: 125px;
 }
 
 .content p {
@@ -71,22 +79,34 @@ h1{
     font-size: 24px;
 }
 
+.content .projects{
+    display: grid;
+    grid-template-columns: 1fr 33vw 1fr;
+    grid-template-rows: 33vw;
+    place-items: center;
+}
+
 .content .box1 {
     display: inline-block;
     background-color: #e9ecef;
-    margin: 2%;
-    margin-bottom: 30px;
-    width: 480px;
-    height: 400px;
+    width: clamp(30vw, 30vw, 600px);
+    height: clamp(30vw, 30vw, 600px);
 }
 
-.content .box2 {
-    display: inline-block;
-    background-color: #e9ecef;
-    margin: 2%;
-    margin-bottom: 30px;
-    width: 480px;
-    height: 400px;
+@media screen and (max-width: 800px){
+  .content .projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .content .box1 {
+    margin-top: 5vw;
+    width: clamp(66vw, 66vw, 600px);
+    height: clamp(66vw, 66vw, 600px);
+  }
 }
 
 .content .rocket .icon img{
@@ -96,6 +116,11 @@ h1{
 }
 
 .content .rocket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
     margin-bottom: 80px;
 }
 
@@ -115,10 +140,12 @@ h1{
     margin-top: 25px;
     margin-bottom: 10px;
     font-size: 35px;
+    text-align: center;
 }
 
 .content .rocket p{
     margin-top: 5px;
     margin-bottom: 20px;
     font-size: 24px;
+    text-align: center;
 }

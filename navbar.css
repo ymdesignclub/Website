@@ -1,9 +1,11 @@
 .navbar
 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
     width: 100%;
-}
-
-.navbar ul {
     height: 80px;
     text-align: center;
     list-style-type: none;
@@ -13,18 +15,18 @@
     background-color: #3d3d3d;
     transform: translate(0px, -6px);
 }
-
-.navbar li {
+/*
+.navbar a{
     display: inline-block;
     transform: translate(0%,-2%);
     border: 0px;
-}
+}*/
 
-.navbar li a {
+.navbar a {
     display: block;
     font-family: Smooch, sans-serif;
     line-height: 42px;
-    font-size: 35px;
+    font-size: clamp(0.5rem, 5vw, 2.5rem);
     color: white;
     padding: 19px 32px;
     text-decoration: none;
@@ -35,7 +37,7 @@
     background-color: #111;
 }
 
-.navbar li a:hover {
+.navbar a:hover {
      background-color: #262626;
 }
 
@@ -44,6 +46,7 @@
     top: 0;
     width: 100%;
     z-index: 2;
+
 }
 
 .sticky + .content {
