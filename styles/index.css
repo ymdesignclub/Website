@@ -63,24 +63,30 @@ h1 {
 .content .box1 {
     display: inline-block;
     background-color: #e9ecef;
+    text-align: center;
     width: clamp(27vw, 27vw, 600px);
     height: clamp(23vw, 23vw, 600px);
 }
 
-@media screen and (max-width: 800px){
-  .content .projects{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
+.content .box1 img {
+    height: 320px;
+    width: 519px;
+}
 
-  .content .box1 {
-    margin-top: 5vw;
-    width: clamp(66vw, 66vw, 600px);
-    height: clamp(66vw, 66vw, 600px);
-  }
+@media screen and (max-width: 800px) {
+    .content .projects {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .content .box1 {
+        margin-top: 5vw;
+        width: clamp(66vw, 66vw, 600px);
+        height: clamp(66vw, 66vw, 600px);
+    }
 }
 
 .content .rocket .icon img{
