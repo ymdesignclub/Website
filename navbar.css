@@ -46,12 +46,12 @@ html{
 }
 
 .sticky {
-    position: fixed;
+    position: sticky;
     top: 0px;
     width: 100%;
     z-index: 2;
 }
 
 .sticky + .content{
-    margin-top: calc(1ch + 80px);
+
 }
