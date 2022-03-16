@@ -39,11 +39,24 @@
 }
 
 .item .title {
-    font-size: 2rem;
+    font-size: auto;
+    margin: auto
     font-family: Atarian, sans-serif;
     text-align: center;
-    line-height: 100%;
+}
 
+.item .drop{
+    font-size: 0rem;
+}
+
+.item:hover .drop{
+    font-size: 200px;
+}
+
+.item img{
+    object-fit: cover;
+    width: clamp(27vw, 27vw, 600px);
+    height: calc(clamp(23vw, 23vw, 600px) * 0.66);
 }
 
 @media screen and (max-width: 800px){

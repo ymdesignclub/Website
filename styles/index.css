@@ -56,7 +56,7 @@ h1 {
 .content .projects{
     display: grid;
     grid-template-columns: 1fr 33vw 1fr;
-    grid-template-rows: 26vw;
+    grid-template-rows: 26vw 26vw;
     place-items: center;
 }
 
@@ -69,7 +69,19 @@ h1 {
     background-color: #e9ecef;
     text-align: center;
     width: clamp(27vw, 27vw, 600px);
-    height: clamp(23vw, 23vw, 600px);
+    /*height: clamp(23vw, 23vw, 600px);*/
+    height: auto;
+}
+
+.dropbox{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 0;
+}
+
+.dropbox p{
+    font-size: 0rem;
 }
 
 .content .box1 img {
@@ -79,10 +91,22 @@ h1 {
     height: calc(clamp(23vw, 23vw, 600px) * 0.66);
 }
 
-.content .box1 p{
+.content .box1:hover img{
+    height: calc(clamp(23vw, 23vw, 600px) * 0.66 - clamp(10px, 6vw, 100px));
+}
+
+.content .box1:hover .dropbox p{
+    font-size: 1.5vw;
+}
+
+.content .box1:hover .dropbox{
+    height: clamp(10px, 6vw, 100px);
+}
+
+.content .box1 t{
     text-align: center;
-    margin: auto;
-    font-size: auto;
+    margin: clamp(10px, 1ch, 50px);
+    font-size: 2rem;
 }
 
 @media screen and (max-width: 800px) {
