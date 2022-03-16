@@ -1,5 +1,5 @@
 html{
-    scroll-padding-top: 80px;
+
 }
 
 .navbar
@@ -47,7 +47,11 @@ html{
 
 .sticky {
     position: fixed;
-    top: 0;
+    top: 0px;
     width: 100%;
     z-index: 2;
+}
+
+.sticky + .content{
+    margin-top: calc(1ch + 80px);
 }
