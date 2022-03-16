@@ -55,8 +55,8 @@ body {
 h1 {
     font-size: 38px;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 25px;
+    margin-bottom: 35px;
 }
 
 .content {
@@ -84,15 +84,15 @@ h1 {
 .content .projects{
     display: grid;
     grid-template-columns: 1fr 33vw 1fr;
-    grid-template-rows: 33vw;
+    grid-template-rows: 26vw;
     place-items: center;
 }
 
 .content .box1 {
     display: inline-block;
     background-color: #e9ecef;
-    width: clamp(30vw, 30vw, 600px);
-    height: clamp(30vw, 30vw, 600px);
+    width: clamp(27vw, 27vw, 600px);
+    height: clamp(23vw, 23vw, 600px);
 }
 
 @media screen and (max-width: 800px){
