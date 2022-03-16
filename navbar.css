@@ -1,3 +1,7 @@
+html{
+    scroll-padding-top: 80px;
+}
+
 .navbar
 {
     display: flex;
@@ -46,9 +50,4 @@
     top: 0;
     width: 100%;
     z-index: 2;
-
-}
-
-.sticky + .content {
-    padding-top: 42px;
 }
