@@ -1,0 +1,21 @@
+.header .banner{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.header .banner .text{
+  font-size: 40px;
+  font-family: Atarian, sans-serif;
+  position: absolute;
+  left: 65px;
+}
+
+.header .banner .mainbutton img{
+  border: 3px solid #FFFF;
+  border-radius: 20%;
+  width: 45px;
+  height: 45px;
+  float: left;
+  margin: 10px;
+}
