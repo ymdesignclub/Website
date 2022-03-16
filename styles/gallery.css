@@ -40,7 +40,10 @@
 
 .item .title {
     font-size: 2rem;
+    font-family: Atarian, sans-serif;
+    text-align: center;
     line-height: 100%;
+
 }
 
 @media screen and (max-width: 800px){
