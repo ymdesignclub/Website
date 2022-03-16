@@ -41,3 +41,18 @@ h1{
   text-align: center;
 }
 
+.content .box1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content .box1 img {
+    width: 200px;
+    object-fit: cover;
+    width: clamp(27vw, 27vw, 600px);
+    position: relative;
+    height: clamp(15vw, 15vw, 600px);
+}
+
