@@ -26,7 +26,7 @@
     display: block;
     font-family: Smooch, sans-serif;
     line-height: 42px;
-    font-size: clamp(0.5rem, 10vw, 1.5rem);
+    font-size: clamp(0.5rem, 20vw, 2.5rem);
     color: white;
     padding: clamp(19px, 5vw, 19px) clamp(10px, 2vw, 32px);
     text-decoration: none;
