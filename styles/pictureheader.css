@@ -1,8 +1,7 @@
-/*.header .title{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}*/
+* {
+    margin: 0;
+    padding: 0;
+}
 
 .header .title{
     display: flex;
@@ -30,13 +29,14 @@
     /*text-shadow: -2px -2px 0 cyan, 3px 3px 0 magenta;*/
 }
 
-/*.header .image img{
+.header .image img{
     height: 780px;
     width: 100%;
     object-fit: cover;
     filter: brightness(60%); 
     margin-bottom: 0px;
 }
+
 .header .image .text{
     font-size: 500%;
     font-family: Above, sans-serif;
@@ -52,4 +52,3 @@
     width: 60%;
     padding: 30px;
 }
-*/
