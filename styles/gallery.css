@@ -22,7 +22,7 @@
     font-family: Smooch, sans-serif;
     font-size: 20px;
 }
-
+/*
 #grid{
     display: grid;
     grid-template-columns: 1fr 33vw 1fr;
@@ -32,7 +32,6 @@
 
 .item {
     display: inline-block;
-    /*background-color:  #e9ecef;*/
     background-color: rgb(175, 175, 175);
     width: clamp(27vw, 27vw, 600px);
     height: clamp(23vw, 23vw, 600px);
@@ -74,7 +73,7 @@
     height: clamp(66vw, 66vw, 600px);
   }
 }
-/*
+
 #grid {
     display: grid;
     grid-template-rows: 300px;

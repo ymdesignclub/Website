@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\images",
     "\\styles",
     "\\styles\\fonts"
   ],
-  "SelectedNode": "\\styles\\footer.css",
+  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
 }
