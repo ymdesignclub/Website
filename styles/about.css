@@ -50,7 +50,8 @@ h1{
     border-radius: 50px;
     background-color: #e9ecef;
     margin: 5% 7%;
-    padding: 2% 10%;
+    padding: 2% 13%;
+    box-shadow: 7px 7px 5px gray;
 }
 
 .content .box1 p {
@@ -60,7 +61,7 @@ h1{
 .content .box1 img {
     display: flex;
     object-fit: cover;
-    padding-top: 30px;
+    padding-top: 50px;
     position: relative;
     width: clamp(27vw, 27vw, 600px);
     height: clamp(15vw, 15vw, 600px);
