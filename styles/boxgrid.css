@@ -1,7 +1,4 @@
-:root{
-    --e: #e9ecef;
-}
-
+@import url("styles/colors.css");
 
 .grid{
     display: grid;
@@ -17,7 +14,8 @@
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    background-color: var(--box-color);
+    /*var(--box-color)*/
+    background-color: var(--e);
     text-align: center;
     width: clamp(27vw, 27vw, 600px);
     height: clamp(23vw, 23vw, 600px);
