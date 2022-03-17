@@ -31,8 +31,15 @@ body {
 
 h1{
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   font-size: 38px;
+}
+
+.content hr.solid {
+    border-top: 3px solid black;
+    margin-bottom: 28px;
+    width: 30%;
+    z-index: 1;
 }
 
 .content{
