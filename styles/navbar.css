@@ -15,20 +15,14 @@
     background-color: #3d3d3d;
     transform: translate(0px, -6px);
 }
-/*
-.navbar a{
-    display: inline-block;
-    transform: translate(0%,-2%);
-    border: 0px;
-}*/
 
 .navbar a {
     display: block;
     font-family: Smooch, sans-serif;
     line-height: 42px;
-    font-size: clamp(0.5rem, 20vw, 2.5rem);
+    font-size: clamp(1rem, 10vw, 2.5rem);
     color: white;
-    padding: clamp(19px, 5vw, 19px) clamp(10px, 2vw, 32px);
+    padding: clamp(1px, 5vw, 19px) clamp(1px, 1vw, 32px);
     text-decoration: none;
     text-shadow: 2px 2px black;
 }
