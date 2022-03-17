@@ -19,6 +19,7 @@
     text-align: center;
     width: clamp(27vw, 27vw, 600px);
     height: clamp(23vw, 23vw, 600px);
+    box-shadow: 7px 7px 5px gray;
 }
 
 .grid .box t{
