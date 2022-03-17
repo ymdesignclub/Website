@@ -1,3 +1,13 @@
 :root{
-    --e: #e9ecef;
+    /*    --e: #e9ecef;    */
+    --gray_h: 0;
+    --gray_s: 0%;
+    --gray_l: 18%;
+    --gray: hsl(var(--gray_h), var(--gray_s), calc(var(--normal) + 18%));
+    --lightgrey: hsl(var(--gray).s, 0%, calc(var(--light) + 18%));
+    --darkgray: hsl(0, 0%, calc(var(--normal) + 18%));
+
+    --dark: 0%;
+    --normal: 50%;
+    --light: 75%; 
 }

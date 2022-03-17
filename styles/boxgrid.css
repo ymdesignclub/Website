@@ -1,4 +1,4 @@
-@import url("styles/colors.css");
+@import url("colors.css");
 
 .grid{
     display: grid;
@@ -15,7 +15,7 @@
     flex-wrap: wrap;
     flex-direction: column;
     /*var(--box-color)*/
-    background-color: var(--e);
+    background-color: var(--lightgrey);
     text-align: center;
     width: clamp(27vw, 27vw, 600px);
     height: clamp(23vw, 23vw, 600px);
