@@ -1,0 +1,4 @@
+:root{
+    --lightgrey: #e9ecef;
+    --lg: var(--lightgrey);
+}

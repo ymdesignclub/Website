@@ -1,8 +1,14 @@
+:root{
+    --e: #e9ecef;
+}
+
+
 .grid{
     display: grid;
     grid-template-columns: 1fr 33vw 1fr;
     grid-template-rows: 26vw 26vw;
     place-items: center;
+    background-color: var(--grid-color);
 }
 
 .grid .box {
@@ -11,7 +17,7 @@
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    background-color: #e9ecef;
+    background-color: var(--box-color);
     text-align: center;
     width: clamp(27vw, 27vw, 600px);
     height: clamp(23vw, 23vw, 600px);
