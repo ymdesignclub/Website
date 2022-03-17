@@ -63,3 +63,26 @@ h1{
     height: clamp(15vw, 15vw, 600px);
 }
 
+#table-of-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 3%;
+}
+
+#table-of-contents a {
+  font-family: Smooch;
+  font-size: 20px;
+  color:dodgerblue;
+}
+
+#table-of-contents a:hover {
+  background-color: rgb(209, 209, 209);
+}
+
+#table-of-contents h2 {
+  font-family: Above;
+  font-size: 40px;
+  margin: 20px;
+}
+
