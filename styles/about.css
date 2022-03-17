@@ -46,9 +46,11 @@ h1{
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    border: solid;
+    border: 0px solid;
+    border-radius: 50px;
+    background-color: #e9ecef;
     margin: 5% 7%;
-    padding: 2% 5%;
+    padding: 2% 10%;
 }
 
 .content .box1 p {
@@ -56,10 +58,11 @@ h1{
 }
 
 .content .box1 img {
-    width: 200px;
+    display: flex;
     object-fit: cover;
-    width: clamp(27vw, 27vw, 600px);
+    padding-top: 30px;
     position: relative;
+    width: clamp(27vw, 27vw, 600px);
     height: clamp(15vw, 15vw, 600px);
 }
 
