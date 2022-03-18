@@ -1,11 +1,11 @@
-@import url("global.css");
+@import "global.css";
 
 .grid{
     display: grid;
     grid-template-columns: 1fr 33vw 1fr;
     grid-template-rows: 26vw 26vw;
     place-items: center;
-    background-color: var(--grid-color);
+    background-color: none;
 }
 
 .grid .box {
@@ -25,6 +25,7 @@
 .grid .box t{
     text-align: center;
     margin-top: calc(clamp(23vw, 23vw, 600px) * 0.10);
+    font-family: var(--fancy_font);
     font-size: 1.5em;
 }
 

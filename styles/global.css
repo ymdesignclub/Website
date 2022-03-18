@@ -4,6 +4,17 @@
 }
 
 @font-face {
+    font-family: Rajdhani-Regular;
+    src: url(fonts/Rajdhani-Regular.ttf);
+}
+
+@font-face {
+    font-family: AdventPro-Light;
+    src: url(fonts/AdventPro-Light.ttf);
+}
+
+
+@font-face {
     font-family: Neoteric;
     src: url(fonts/Neoteric-32A8.ttf);
 }
@@ -17,7 +28,6 @@
     font-family: Smooch;
     src: url(fonts/Smooch.ttf);
 }
-
 
 body {
     height: 100%;
@@ -44,4 +54,9 @@ h1 {
     --dark: 0%;
     --normal: 50%;
     --light: 75%; 
+
+    --future_font: Smooch;
+    --fancy_font: AdventPro-Light;
+    --normal_font: Rajdhani-Regular;
+    --bold_font: Atarian
 }
