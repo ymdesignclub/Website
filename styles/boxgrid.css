@@ -2,10 +2,10 @@
 
 .grid{
     display: grid;
-    grid-template-columns: 1fr 33vw 1fr;
-    grid-template-rows: 26vw 26vw;
+    grid-template-columns: var(--columns);
+    grid-template-rows: var(--rows);
     place-items: center;
-    background-color: none;
+    background-color: var(--background_color, --invisible);
 }
 
 .grid .box {
@@ -15,18 +15,18 @@
     flex-wrap: wrap;
     flex-direction: column;
     /*var(--box-color)*/
-    background-color: var(--lightgrey);
+    background-color: var(--box_color, --invisible);
     text-align: center;
-    width: clamp(27vw, 27vw, 600px);
-    height: clamp(23vw, 23vw, 600px);
-    box-shadow: 7px 7px 5px gray;
+    width: clamp(var(--box_width), var(--box_width), 600px);
+    height: clamp(var(--box_height), var(--box_height), 600px);
+    box-shadow: var(--shadow);
 }
 
 .grid .box t{
     text-align: center;
-    margin-top: calc(clamp(23vw, 23vw, 600px) * 0.10);
+    margin-top: calc(clamp(var(--box_height), var(--box_height), 600px) * 0.10);
     font-family: var(--fancy_font);
-    font-size: 1.5em;
+    font-size: clamp(0px, calc(var(--box_width)/7.5), 3vw);
 }
 
 .grid .dropbox{
@@ -43,20 +43,20 @@
 .grid .box img {
     object-fit: cover;
     position: relative;
-    width: clamp(27vw, 27vw, 600px);
-    height: calc(clamp(23vw, 23vw, 600px) * 0.66);
+    width: clamp(var(--box_width), var(--box_width), 600px);
+    height: calc(clamp(var(--box_height), var(--box_height), 600px) * 0.66);
 }
 
 .grid .box:hover img{
-    height: calc(clamp(23vw, 23vw, 600px) * 0.66 - clamp(10px, 6vw, 100px));
+    height: calc(clamp(var(--box_height), var(--box_height), 600px) * 0.66 - clamp(10px, var(--dropbox_height), 100px));
 }
 
 .grid .box:hover .dropbox p{
-    font-size: 1.5vw;
+    font-size: clamp(0px, calc(var(--box_width)/10), 1.5vw);
 }
 
 .grid .box:hover .dropbox{
-    height: clamp(10px, 6vw, 100px);
+    height: clamp(10px, var(--dropbox_height), 100px);
 }
 
 @media screen and (max-width: 800px) {
@@ -76,37 +76,39 @@
         flex-direction: column;
         background-color: #e9ecef;
         margin-top: 5rem;
-        width: clamp(66vw, 66vw, 600px);
-        height: clamp(66vw, 66vw, 600px);
+        width: clamp(calc(var(--box_width) * var(--mobile_scale)), calc(var(--box_width) * var(--mobile_scale)), 600px);
+        height: clamp(calc(var(--box_height) * var(--mobile_scale)), calc(var(--box_height) * var(--mobile_scale)), 600px);
     }
 
 
     .grid .box img{
         object-fit: cover;
         position: relative;
-        width: clamp(66vw, 66vw, 600px);
-        height: calc(clamp(66vw, 66vw, 400px) * 0.66);
+        width: clamp(calc(var(--box_width) * var(--mobile_scale)), calc(var(--box_width) * var(--mobile_scale)), 600px);
+        height: calc(clamp(calc(var(--box_height) * var(--mobile_scale)), calc(var(--box_height) * var(--mobile_scale)), 400px) * 0.66);
     }
 
     .grid .box t{
         text-align: center;
-        margin-top: calc(clamp(66vw, 66vw, 400px) * 0.10);
-        font-size: clamp(10px, 3rem, 5vw);
+        margin-top: calc(clamp(calc(var(--box_width) * var(--mobile_scale)), calc(var(--box_width) * var(--mobile_scale)), 400px) * 0.10);
+        font-size: clamp(10px, calc(var(--box_width)/7.5), 5vw);
     }
 
     .dropbox p{
         font-size: 0rem;
+        width: clamp(calc(var(--box_width) * var(--mobile_scale)), calc(var(--box_width) * var(--mobile_scale)), 600px);
     }
 
     .grid .box:hover img{
-        height: calc(clamp(66vw, 66vw, 400px) * 0.66 - clamp(10px, 12vw, 600px));
+        height: calc(clamp(calc(var(--box_width) * var(--mobile_scale)), calc(var(--box_width) * var(--mobile_scale)), 400px) * 0.66 - clamp(10px, calc(var(--dropbox_height) * var(--mobile_scale)), 100px));
     }
 
     .grid .box:hover .dropbox p{
-        font-size: 4vw;
+        font-size: clamp(0px, calc(var(--box_width)/10), 4vw);;
+
     }
 
     .grid .box:hover .dropbox{
-        height: clamp(10px, 12vw, 600px);
+        height: clamp(10px, calc(var(--dropbox_height) * var(--mobile_scale)), 100px);
     }
 }
