@@ -1,3 +1,5 @@
+@import url("colors.css");
+
 .navbar
 {
     display: flex;
@@ -12,7 +14,8 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #3d3d3d;
+    background-color: var(--darkgrey);
+    /*#3d3d3d*/
     transform: translate(0px, -6px);
 }
 
