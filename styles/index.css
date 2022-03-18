@@ -1,36 +1,3 @@
-@font-face {
-    font-family: Atarian;
-    src: url(fonts/SFAtarianSystem.ttf);
-}
-
-@font-face {
-    font-family: Neoteric;
-    src: url(fonts/Neoteric-32A8.ttf);
-}
-
-@font-face {
-    font-family: Above;
-    src: url(fonts/Above.ttf);
-}
-
-@font-face {
-    font-family: Smooch;
-    src: url(fonts/Smooch.ttf);
-}
-
-
-body {
-    height: 100%;
-    width: 100%;
-}
-
-h1 {
-    font-size: 38px;
-    text-align: center;
-    margin-top: 25px;
-    margin-bottom: 35px;
-}
-
 .content {
     display: flex;
     justify-content: center;
