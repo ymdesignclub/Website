@@ -1,12 +1,12 @@
 :root{
     /*    --e: #e9ecef;    */
-    --gray_h: 0;
-    --gray_s: 0%;
-    --gray_l: 18%;
-    --gray: hsl(var(--gray_h), var(--gray_s), calc(var(--normal) + 18%));
-    --lightgrey: hsl(var(--gray).s, 0%, calc(var(--light) + 18%));
-    --darkgray: hsl(0, 0%, calc(var(--normal) + 18%));
-
+    --grey_h: 0;
+    --grey_s: 0%;
+    --grey_l: 18%;
+    --darkgrey: hsl(var(--grey_h), var(--grey_s), calc(var(--dark) + var(--grey_l)));
+    --grey: hsl(var(--grey_h), var(--grey_s), calc(var(--normal) + var(--grey_l)));
+    --lightgrey: hsl(var(--grey_h), var(--grey_s), calc(var(--light) + var(--grey_l)));
+   
     --dark: 0%;
     --normal: 50%;
     --light: 75%; 
