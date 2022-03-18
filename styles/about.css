@@ -58,7 +58,7 @@ hr.solid {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 270px;
+  width: auto;
   border: 3px outset;
   border-radius: 15px;
   background-color: #e9ecef;
@@ -83,7 +83,7 @@ hr.solid {
 #table-of-contents h2 {
   font-family: Above;
   font-size: 40px;
-  margin: 20px;
+  margin: 30px;
   margin-top: 0px;
   margin-bottom: 15px;
 }
