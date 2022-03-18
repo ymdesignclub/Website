@@ -18,7 +18,7 @@
 .item .title {
     font-size: auto;
     margin: auto
-    font-family: Atarian, sans-serif;
+    font-family: var(--bold_font);
     text-align: center;
 }
 

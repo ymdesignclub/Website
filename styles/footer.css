@@ -6,7 +6,7 @@
 footer{
   display: inline-block;
   font-size: 22px;
-  font-family: Smooch, sans-serif;
+  font-family: var(--future_font);
   text-align: center;
   color: #e9ecef;
   background-color: #343a40;

@@ -14,7 +14,7 @@ hr.solid {
 
 
 .box1 {
-    font-family: Smooch, sans-serif;
+    font-family: var(--future_font);
     position: relative;
     text-align: left;
 
@@ -35,7 +35,7 @@ hr.solid {
 }
 
 .box1 h1 {
-    font-family: Above, sans-serif;
+    font-family: var(--normal_font);
 }
 
 
@@ -75,7 +75,7 @@ hr.solid {
 }
 
 #table-of-contents a {
-  font-family: Smooch;
+  font-family: var(--future_font);
   font-size: 30px;
   text-decoration: none;
   color: rgb(0, 86, 172);
@@ -87,7 +87,7 @@ hr.solid {
 }
 
 #table-of-contents h2 {
-  font-family: Above;
+  font-family: var(--normal_font);
   font-size: 40px;
   margin: 30px;
   margin-top: 0px;

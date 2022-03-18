@@ -13,7 +13,7 @@
 
 .header .banner .text{
   font-size: 40px;
-  font-family: Atarian, sans-serif;
+  font-family: var(--bold_font);
   position: absolute;
   left: 65px;
 }

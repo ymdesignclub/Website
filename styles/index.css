@@ -4,7 +4,7 @@
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    font-family: Smooch, sans-serif;
+    font-family: var(--future_font);
     /*position: relative;
     text-align: center;*/ 
     z-index: 1;
