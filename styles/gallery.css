@@ -1,27 +1,5 @@
-@font-face {
-    font-family: Atarian;
-    src: url(fonts/SFAtarianSystem.ttf);
-}
+@import "global.css"
 
-@font-face {
-    font-family: Neoteric;
-    src: url(fonts/Neoteric-32A8.ttf);
-}
-
-@font-face {
-    font-family: Above;
-    src: url(fonts/Above.ttf);
-}
-
-@font-face {
-    font-family: Smooch;
-    src: url(fonts/Smooch.ttf);
-}
-
-.description {
-    font-family: Smooch, sans-serif;
-    font-size: 20px;
-}
 /*
 #grid{
     display: grid;
