@@ -46,14 +46,57 @@ h1 {
     --grey_h: 0;
     --grey_s: 0%;
     --grey_l: 18%;
-    --darkgrey: hsl(var(--grey_h), var(--grey_s), calc(var(--dark) + var(--grey_l) + 8%));
+    --darkgrey: hsl(var(--grey_h), var(--grey_s), calc(var(--dark) + var(--grey_l) - 13%));
     --grey: hsl(var(--grey_h), var(--grey_s), calc(var(--normal) + var(--grey_l)));
     --lightgrey: hsl(var(--grey_h), var(--grey_s), calc(var(--light) + var(--grey_l)));
+
+    --red_h: 1;
+    --red_s: 75%;
+    --red_l: 5%;
+    --darkred: hsl(var(--red_h), var(--red_s), calc(var(--dark) + var(--red_l)));
+    --red: hsl(var(--red_h), var(--red_s), calc(var(--normal) + var(--red_l)));
+    --lightred: hsl(var(--red_h), var(--red_s), calc(var(--light) + var(--red_l)));
+    
+    --orange_h: 30;
+    --orange_s: 100%;
+    --orange_l: 5%;
+    --darkorange: hsl(var(--orange_h), var(--orange_s), calc(var(--dark) + var(--orange_l)));
+    --orange: hsl(var(--orange_h), var(--orange_s), calc(var(--normal) + var(--orange_l)));
+    --lightorange: hsl(var(--orange_h), var(--orange_s), calc(var(--light) + var(--orange_l)));
+
+    --yellow_h: 60;
+    --yellow_s: 75%;
+    --yellow_l: 5%;
+    --darkyellow: hsl(var(--yellow_h), var(--yellow_s), calc(var(--dark) + var(--yellow_l)));
+    --yellow: hsl(var(--yellow_h), var(--yellow_s), calc(var(--normal) + var(--yellow_l)));
+    --lightyellow: hsl(var(--yellow_h), var(--yellow_s), calc(var(--light) + var(--yellow_l)));
+
+    --green_h: 110;
+    --green_s: 54%;
+    --green_l: 5%;
+    --darkgreen: hsl(var(--green_h), var(--green_s), calc(var(--dark) + var(--green_l)));
+    --green: hsl(var(--green_h), var(--green_s), calc(var(--normal) + var(--green_l)));
+    --lightgreen: hsl(var(--green_h), var(--green_s), calc(var(--light) + var(--green_l)));
+
+    --blue_h: 185;
+    --blue_s: 54%;
+    --blue_l: 5%;
+    --darkblue: hsl(var(--blue_h), var(--blue_s), calc(var(--dark) + var(--blue_l)));
+    --blue: hsl(var(--blue_h), var(--blue_s), calc(var(--normal) + var(--blue_l)));
+    --lightblue: hsl(var(--blue_h), var(--blue_s), calc(var(--light) + var(--blue_l)));
+
+    --purple_h: 275;
+    --purple_s: 54%;
+    --purple_l: 5%;
+    --darkpurple: hsl(var(--purple_h), var(--purple_s), calc(var(--dark) + var(--purple_l)));
+    --purple: hsl(var(--purple_h), var(--purple_s), calc(var(--normal) + var(--purple_l)));
+    --lightpurple: hsl(var(--purple_h), var(--purple_s), calc(var(--light) + var(--purple_l)));
+
     --shade: hsl(0, 0%, calc(var(--dark) + 50%));
     --invisible: hsl(0, 0%, 0%, 0);
 
 
-    --dark: 0%;
+    --dark: 25%;
     --normal: 50%;
     --light: 75%; 
 
