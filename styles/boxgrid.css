@@ -45,6 +45,11 @@
     position: relative;
     width: clamp(var(--box_width), var(--box_width), 600px);
     height: calc(clamp(var(--box_height), var(--box_height), 600px) * 0.66);
+    background-color: var(--image_color);
+}
+
+.grid .box a{
+    font-size: 0px; /*funny that the image link will require this to have 2 sentence name, showing*/
 }
 
 .grid .box:hover img{
@@ -75,7 +80,7 @@
         flex-wrap: wrap;
         flex-direction: column;
         background-color: #e9ecef;
-        margin-top: 5rem;
+        margin-top: clamp(calc(var(--box_height) * var(--mobile_scale) * 0.1), calc(var(--box_height) * var(--mobile_scale) * 0.1), 60px);;
         width: clamp(calc(var(--box_width) * var(--mobile_scale)), calc(var(--box_width) * var(--mobile_scale)), 600px);
         height: clamp(calc(var(--box_height) * var(--mobile_scale)), calc(var(--box_height) * var(--mobile_scale)), 600px);
     }
