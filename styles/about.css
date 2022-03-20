@@ -56,10 +56,11 @@ hr.solid {
 
 #table-of-contents {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: flex-start;
 
-  width: auto;
+  width: clamp(100px, 20vw, 300px);
   border: 3px outset;
   border-radius: 15px;
   background-color: #e9ecef;
@@ -76,10 +77,10 @@ hr.solid {
 
 #table-of-contents a {
   font-family: var(--future_font);
-  font-size: 30px;
+  font-size: clamp(1px, 5vw, 30px);
   text-decoration: none;
+  margin-left: clamp(1px, 5vw, 30px);;
   color: rgb(0, 86, 172);
-  margin-left: 40px;
 }
 
 #table-of-contents a:hover {
@@ -88,8 +89,8 @@ hr.solid {
 
 #table-of-contents h2 {
   font-family: var(--normal_font);
-  font-size: 40px;
-  margin: 30px;
+  font-size: clamp(1px, 6vw, 40px);
+  margin: clamp(1px, 5vw, 30px);;
   margin-top: 0px;
   margin-bottom: 15px;
 }
