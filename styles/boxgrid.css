@@ -37,6 +37,7 @@
 }
 
 .grid .dropbox p{
+    font-family: var(--future_font);
     font-size: 0rem;
 }
 
