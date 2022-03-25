@@ -8,7 +8,7 @@
 hr.solid {
     border-top: 3px solid black;
     margin-bottom: 28px;
-    width: 340px;
+    width: 100%;
     z-index: 1;
 }
 
@@ -31,7 +31,7 @@ hr.solid {
 }
 
 .box1 p {
-    font-size: clamp(0px, 4vw, 30px);
+    font-size: clamp(0px, 3.5vw, 30px);
 }
 
 .box1 h1 {
@@ -46,6 +46,14 @@ hr.solid {
     position: relative;
     width: clamp(27vw, 27vw, 600px);
     height: clamp(15vw, 15vw, 600px);
+}
+
+#AboutUs{
+    width: 50%;
+}
+
+#AboutUs p{
+    text-align: center;
 }
 
 #about-top {
@@ -77,7 +85,7 @@ hr.solid {
 
 #table-of-contents a {
   font-family: var(--future_font);
-  font-size: clamp(1px, 5vw, 30px);
+  font-size: clamp(1px, 3vw, 30px);
   text-decoration: none;
   margin-left: clamp(1px, 5vw, 30px);;
   color: rgb(0, 86, 172);
@@ -89,9 +97,13 @@ hr.solid {
 
 #table-of-contents h2 {
   font-family: var(--normal_font);
-  font-size: clamp(1px, 6vw, 40px);
+  font-size: clamp(1px, 4vw, 40px);
   margin: clamp(1px, 5vw, 30px);;
   margin-top: 0px;
   margin-bottom: 15px;
 }
+
+
+
+
 
