@@ -11,8 +11,7 @@
     align-items: center;
 }
 
-.navbar .navbar-pages
-{
+.navbar .navbar-pages {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,16 +22,12 @@
     /*width: 100%;*/
     flex: 1 1 auto;
 
-    height: clamp(20px, calc(19px + 1ch + 19px), 80px) calc(19px + 19px + 1.5rem));
+    height: clamp(20px, calc(19px + 1ch + 19px), 80px) calc(19px + 19px + 1.5rem);
     text-align: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-
-    /*background-color: var(--darkgrey);*/
-    /*#3d3d3d*/
-    /*transform: translate(0px, -6px);*/
 }
 
 .navbar .navbar-pages a {
