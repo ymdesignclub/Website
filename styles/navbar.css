@@ -4,8 +4,6 @@
     display: flex;
     flex-direction: row;
     
-    
-
     background-color: var(--darkgrey);
     /*transform: translate(0px, -6px);*/
     align-items: center;
