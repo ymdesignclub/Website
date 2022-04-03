@@ -1,0 +1,24 @@
+#join-btn {
+    z-index: 100;
+    position: fixed;
+    right: 1.5vw;
+    bottom: 2vw;
+
+    background-color: rgb(138, 207, 34);
+    color: white;
+    border-radius: 10px; 
+    border: outset 10px greenyellow;
+    box-shadow: 5px 3px 10px 1px rgba(0, 31, 0, 0.63);
+
+    padding: 5px 10px;
+    margin-right: 10px;
+
+    font-family: Smooch, sans-serif;
+    font-size: clamp(1rem, 10vw, 2.5rem);
+    text-decoration: none;
+    text-shadow: 2px 2px green;
+}
+
+#join-btn:hover {
+    
+}
