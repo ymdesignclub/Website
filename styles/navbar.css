@@ -54,7 +54,7 @@
     z-index: 2;
 }
 
-/* this is the css for when the join button was in the navbar
+/* this is the css for when the join button was in the navbar */
 .navbar #join-btn {
     background-color: greenyellow;
     color: white;
@@ -71,4 +71,3 @@
 .navbar #join-btn:hover {
     background-color: rgb(115, 236, 45);
 }
-*/
