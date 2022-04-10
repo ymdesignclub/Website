@@ -10,7 +10,7 @@
 
 .grid .box {
     display: flex;
-    justify-content: top;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
@@ -20,6 +20,12 @@
     width: clamp(var(--box_width), var(--box_width), 600px);
     height: clamp(var(--box_height), var(--box_height), 600px);
     box-shadow: var(--shadow);
+}
+
+.grid .blankbox{
+    background-color: var(--invisible);
+    width: clamp(var(--box_width), var(--box_width), 600px);
+    height: clamp(var(--box_height), var(--box_height), 600px);
 }
 
 .grid .box t{
@@ -80,12 +86,17 @@
         align-items: center;
         flex-wrap: wrap;
         flex-direction: column;
-        background-color: #e9ecef;
+        background-color: var(--box_color, --invisible);
         margin-top: clamp(calc(var(--box_height) * var(--mobile_scale) * 0.1), calc(var(--box_height) * var(--mobile_scale) * 0.1), 60px);;
         width: clamp(calc(var(--box_width) * var(--mobile_scale)), calc(var(--box_width) * var(--mobile_scale)), 600px);
         height: clamp(calc(var(--box_height) * var(--mobile_scale)), calc(var(--box_height) * var(--mobile_scale)), 600px);
     }
 
+    .grid .blankbox{
+        background-color: var(--invisible);
+        width: clamp(var(--box_width), var(--box_width), 600px);
+        height: clamp(var(--box_height), var(--box_height), 600px);
+    }
 
     .grid .box img{
         object-fit: cover;
