@@ -69,3 +69,11 @@
     line-height: 100%;
 }
 */
+
+.description {
+    text-align: center; 
+    font-size: 2rem; 
+    font-family: var(--future_font);
+
+    padding: 1em;
+}

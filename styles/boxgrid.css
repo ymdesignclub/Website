@@ -10,7 +10,7 @@
 
 .grid .box {
     display: flex;
-    justify-content: top;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
@@ -22,9 +22,16 @@
     box-shadow: var(--shadow);
 }
 
+.grid .blankbox{
+    background-color: var(--invisible);
+    width: clamp(var(--box_width), var(--box_width), 600px);
+    height: clamp(var(--box_height), var(--box_height), 600px);
+}
+
 .grid .box t{
     text-align: center;
     margin-top: calc(clamp(var(--box_height), var(--box_height), 600px) * 0.10);
+    transform: Translate(0, calc(var(--box_height) * -0.060764));
     font-family: var(--fancy_font);
     font-size: clamp(0px, calc(var(--box_width)/7.5), 3vw);
 }
@@ -44,6 +51,7 @@
 .grid .box img {
     object-fit: cover;
     position: relative;
+    transform: Translate(0, calc(var(--box_height) * -0.060764));
     width: clamp(var(--box_width), var(--box_width), 600px);
     height: calc(clamp(var(--box_height), var(--box_height), 600px) * 0.66);
     background-color: var(--image_color);
@@ -57,12 +65,12 @@
     height: calc(clamp(var(--box_height), var(--box_height), 600px) * 0.66 - clamp(10px, var(--dropbox_height), 100px));
 }
 
-.grid .box:hover .dropbox p{
-    font-size: clamp(0px, calc(var(--box_width)/10), 1.5vw);
-}
-
 .grid .box:hover .dropbox{
     height: clamp(10px, var(--dropbox_height), 100px);
+}
+
+.grid .box:hover .dropbox p{
+    font-size: clamp(0px, calc(var(--box_width)/10), 1.5vw);
 }
 
 @media screen and (max-width: 800px) {
@@ -80,22 +88,29 @@
         align-items: center;
         flex-wrap: wrap;
         flex-direction: column;
-        background-color: #e9ecef;
+        background-color: var(--box_color, --invisible);
         margin-top: clamp(calc(var(--box_height) * var(--mobile_scale) * 0.1), calc(var(--box_height) * var(--mobile_scale) * 0.1), 60px);;
         width: clamp(calc(var(--box_width) * var(--mobile_scale)), calc(var(--box_width) * var(--mobile_scale)), 600px);
         height: clamp(calc(var(--box_height) * var(--mobile_scale)), calc(var(--box_height) * var(--mobile_scale)), 600px);
     }
 
+    .grid .blankbox{
+        background-color: var(--invisible);
+        width: clamp(var(--box_width), var(--box_width), 600px);
+        height: clamp(var(--box_height), var(--box_height), 600px);
+    }
 
     .grid .box img{
         object-fit: cover;
         position: relative;
+        transform: Translate(0, calc(var(--box_height) * var(--mobile_scale) * -0.1));
         width: clamp(calc(var(--box_width) * var(--mobile_scale)), calc(var(--box_width) * var(--mobile_scale)), 600px);
         height: calc(clamp(calc(var(--box_height) * var(--mobile_scale)), calc(var(--box_height) * var(--mobile_scale)), 400px) * 0.66);
     }
 
     .grid .box t{
         text-align: center;
+        transform: Translate(0, calc(var(--box_height) * var(--mobile_scale) * -0.060764));
         margin-top: calc(clamp(calc(var(--box_width) * var(--mobile_scale)), calc(var(--box_width) * var(--mobile_scale)), 400px) * 0.10);
         font-size: clamp(10px, calc(var(--box_width)/7.5), 5vw);
     }
