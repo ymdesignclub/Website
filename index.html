@@ -134,17 +134,44 @@
                 <p>Made by the executives of the YM Design Club.</p>
             </div-->
 
-            <div class="social_media">
+            <div class="grid" style="
+                --columns: 1fr 20vw 20vw 20vw  1fr; 
+                --rows: 20vw;
+                --background_color: var(--invisible); 
+                
+                --box_color: var(--invisible);
+                --box_width: 20vw; 
+                --box_height: 20vw; 
 
-                <div class = "discord">
-                    <img src="images/discord.png">
+                --dropbox_height: 0vw;
+                --shadow: 7px 7px 5px 5px var(--invisible);
+                --mobile_scale: 2;
+                background-image: url(images/social_media_background.png);
+                background-size: fit;
+                background-position: center;
+                ">
+                <div></div>
+                <div>
+                    <div class = "discord">
+                        <img src="images/discord.png" style="width: clamp(50px, 15vw, 200px); object-fit: contain;">
+                    </div>
                 </div>
-                <div class = "instagram">
-                    <img src="images/instagram.png">
+
+                <div>
+                    <div class = "instagram">
+                        <img src="images/instagram.png" style="width: clamp(50px, 15vw, 200px); object-fit: contain;">
+                    </div>
                 </div>
-                <div class = "youtube">
-                    <img src="images/youtube.png">
+
+                <div>
+                    <div class = "youtube">
+                        <img src="images/youtube.png" style="width: clamp(50px, 15vw, 200px); object-fit: contain;">
+                    </div>
                 </div>
+                <div></div>
+               
+               
+               
             </div>
 
         </div>
