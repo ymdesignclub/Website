@@ -43,6 +43,12 @@ h1 {
 
 :root{
     /*    --e: #e9ecef;    */
+    --white_h: 0;
+    --white_s: 0%;
+    --white_l: 50%;
+
+    --customwhite: hsl(var(--white_h), var(--white_s), calc(var(--normal) + var(--white_l)));
+
     --black_h: 0;
     --black_s: 0%;
     --black_l: 0%;

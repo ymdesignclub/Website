@@ -45,29 +45,46 @@
 
 
         <div class="content">
-            <div class="container"style="display: flex; Justify-content: center; Align-items: center; flex-wrap: wrap; flex-direction: column;">
+            <!-- div class="container"style="display: flex; Justify-content: center; Align-items: center; flex-wrap: wrap; flex-direction: column;">
                 <h1>Follow our Instagram</h1>
                 <p>To see any future events and news, please follow us at...</p>
-                
-            <a href="https://www.instagram.com/ymdesignclub/" target="_blank">
-                <img src="images/favicon.png" style=" 
-                    border: 3px solid #FFFF;
-                    border-radius: 20%;
-                    width: 200px;
-                    height: 200px;
-                    float: left;
-                    margin: 10px;
+                <a href="https://www.instagram.com/ymdesignclub/" target="_blank">
+                    <img src="images/favicon.png" style=" 
+                        border: 3px solid #FFFF;
+                        border-radius: 20%;
+                        width: 200px;
+                        height: 200px;
+                        float: left;
+                        margin: 10px;
                     
-                ">
-                <p style="text-align: center;">@ymdesignclub</p>
-            </a>
+                    ">
+                    <p style="text-align: center;">@ymdesignclub</p>
+                </a>
+            </div-->
+
+            <div class="horizontal-container" style="width: 100vw; margin-top: 5vw; background-color: var(--darkblue)">
+                <div style="margin-bottom: 0vw; margin-right: 3vw;">
+                    <h1 style="text-align: left;">Welcome to the YM Design Club</h1>
+                    <p style="text-align: left; font-size: clamp(0px, 5vw, 30px);">some about us infomation aaaaaaaaaaaaaaaa<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+                </div>
+                <div>
+                    <img src="images/favicon.png" style="
+                            border: 3px solid var(--invisible);
+                            border-radius: 20%;
+                            width: 200px;
+                            height: 200px;
+                            float: left;
+                            margin: 20px;
+                    ">
+                </div>
             </div>
+
             <div class="container">
-                <h1>Current Projects</h1>
+                <h1 style="background-color: var(--darkgrey);"></h1>
                 <!-- if your updating any projects make sure to update the gallery-->
                 <div class="grid" style="
                     --columns: 0vw 33vw 33vw 33vw 1vw; 
-                    --rows: 33vw;
+                    --rows: 5vw 33vw;
                     --background_color: var(--darkgrey); 
                     --box_color: var(--lightgrey);
                     --box_width: 30vw; 
@@ -77,6 +94,12 @@
                     --shadow: 7px 7px 5px 5px var(--lightblack);
                     --mobile_scale: 2;
                     ">
+                    <div></div>
+                    <div class="blankbox"></div>
+                    <h1 style="text-align: center; color: var(--customwhite)">Current Projects</h1>
+                    <div class="blankbox"></div>
+                    <div></div>
+                    
                     <div></div>
                     <div class="box">
                         <a href = "https://pizzastoler23.itch.io/flappy-knight" target="_blank"><img src="images/flappyknight.png"></a>
@@ -132,15 +155,14 @@
                 <h2>A game inspired greatly by the famous Flappy Bird game.</h2>
                 <p>Made by the executives of the YM Design Club.</p>
             </div-->
-
             <div class="grid" style="
                 --columns: 1fr 20vw 20vw 20vw 1fr; 
-                --rows: 20vw;
+                --rows: 10vw 20vw;
                 --background_color: var(--invisible); 
                 
                 --box_color: var(--invisible);
                 --box_width: 20vw; 
-                --box_height: 19vw; 
+                --box_height: 20vw; 
 
                 --dropbox_height: 0vw;
                 --shadow: 7px 7px 5px 5px var(--invisible);
@@ -148,24 +170,32 @@
                 background-image: url(images/social_media_background.png);
                 background-size: fit;
                 background-position: 50% 60%;
+
+                
                 ">
+                <div></div>
+                <div></div>
+                <h1 style="margin-top: 5vw; color: var(--customwhite);">Follow Us</h1>
+                <div></div>
+                <div></div>
+
                 <div class="blankbox"></div>
                 <div>
-                    <div class = "discord">
+                    <a href="https://discord.com/invite/7cU3T8zj2P" target="_blank">
                         <img src="images/discord.png" style="width: clamp(50px, 15vw, 200px); object-fit: contain;">
-                    </div>
+                    </a>
                 </div>
 
                 <div>
-                    <div class = "instagram">
+                    <a href="https://www.instagram.com/ymdesignclub/" target="_blank">
                         <img src="images/instagram.png" style="width: clamp(50px, 15vw, 200px); object-fit: contain;">
-                    </div>
+                    </a>
                 </div>
 
                 <div>
-                    <div class = "youtube">
+                    <a href="https://www.youtube.com/watch?v=iik25wqIuFo" target="_blank">
                         <img src="images/youtube.png" style="width: clamp(50px, 15vw, 200px); object-fit: contain;">
-                    </div>
+                    </a>
                 </div>
                 <div class="blankbox"></div>
                
