@@ -19,7 +19,7 @@
     text-align: center;
     width: clamp(var(--box_width), var(--box_width), 600px);
     height: clamp(var(--box_height), var(--box_height), 600px);
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadow, --invisible);
 }
 
 .grid .blankbox{

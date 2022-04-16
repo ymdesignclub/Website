@@ -43,6 +43,14 @@ h1 {
 
 :root{
     /*    --e: #e9ecef;    */
+    --black_h: 0;
+    --black_s: 0%;
+    --black_l: 0%;
+
+    --darkblack: hsl(var(--black_h), var(--black_s), calc(var(--dark) + var(--black_l) - 25%));
+    --black: hsl(var(--black_h), var(--black_s), calc(var(--normal) + var(--black_l) - 40%));
+    --lightblack: hsl(var(--black_h), var(--black_s), calc(var(--light) + var(--black_l) - 65%));
+
     --grey_h: 0;
     --grey_s: 0%;
     --grey_l: 18%;
