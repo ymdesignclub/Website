@@ -62,7 +62,7 @@
                 </a>
             </div-->
 
-            <div class="horizontal-container" style="width: 100vw; margin-top: 5vw; background-color: var(--darkblue)">
+            <div class="horizontal-container" style="width: 100vw; background-color: var(--darkblue)">
                 <div style="margin-bottom: 0vw; margin-right: 3vw;">
                     <h1 style="text-align: left;">Welcome to the YM Design Club</h1>
                     <p style="text-align: left; font-size: clamp(0px, 5vw, 30px);">some about us infomation aaaaaaaaaaaaaaaa<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
@@ -80,7 +80,6 @@
             </div>
 
             <div class="container">
-                <h1 style="background-color: var(--darkgrey);"></h1>
                 <!-- if your updating any projects make sure to update the gallery-->
                 <div class="grid" style="
                     --columns: 0vw 33vw 33vw 33vw 1vw; 
@@ -93,10 +92,11 @@
                     --dropbox_height: 6vw;
                     --shadow: 7px 7px 5px 5px var(--lightblack);
                     --mobile_scale: 2;
+                    --mobile_flex_direction: column;
                     ">
                     <div></div>
                     <div class="blankbox"></div>
-                    <h1 style="text-align: center; color: var(--customwhite)">Current Projects</h1>
+                    <h1 style="text-align: center; color: var(--customwhite); margin-top: 7vh;">Current Projects</h1>
                     <div class="blankbox"></div>
                     <div></div>
                     
@@ -155,54 +155,74 @@
                 <h2>A game inspired greatly by the famous Flappy Bird game.</h2>
                 <p>Made by the executives of the YM Design Club.</p>
             </div-->
-            <div class="grid" style="
-                --columns: 1fr 20vw 20vw 20vw 1fr; 
-                --rows: 10vw 20vw;
-                --background_color: var(--invisible); 
+            <div class="container" style="width: 100vw; background-image: url(images/social_media_background.png);
+                    background-size: fit;
+                    background-position: 50% 60%;">
                 
-                --box_color: var(--invisible);
-                --box_width: 20vw; 
-                --box_height: 20vw; 
-
-                --dropbox_height: 0vw;
-                --shadow: 7px 7px 5px 5px var(--invisible);
-                --mobile_scale: 2;
-                background-image: url(images/social_media_background.png);
-                background-size: fit;
-                background-position: 50% 60%;
-
+                <div class="grid" style="
+                    --columns: 14vw 18vw 18vw 18vw 18vw 14vw; 
+                    --rows: 5vw 18vw;
+                    --background_color: var(--invisible); 
                 
-                ">
-                <div></div>
-                <div></div>
-                <h1 style="margin-top: 5vw; color: var(--customwhite);">Follow Us</h1>
-                <div></div>
-                <div></div>
+                    --box_color: var(--invisible);
+                    --box_width: 18vw; 
+                    --box_height: 18vw; 
 
-                <div class="blankbox"></div>
-                <div>
-                    <a href="https://discord.com/invite/7cU3T8zj2P" target="_blank">
-                        <img src="images/discord.png" style="width: clamp(50px, 15vw, 200px); object-fit: contain;">
-                    </a>
-                </div>
+                    --dropbox_height: 0vw;
+                    --shadow: 7px 7px 5px 5px var(--invisible);
+                    --mobile_scale: 2;
+                    --mobile_flex_direction: row;
+                    
+                    
+                    ">
+                    <style>
+                        h1{
+                            margin-top: 5vh; 
+                            color: var(--customwhite);
 
-                <div>
-                    <a href="https://www.instagram.com/ymdesignclub/" target="_blank">
-                        <img src="images/instagram.png" style="width: clamp(50px, 15vw, 200px); object-fit: contain;">
-                    </a>
-                </div>
+                        }
 
-                <div>
-                    <a href="https://www.youtube.com/watch?v=iik25wqIuFo" target="_blank">
-                        <img src="images/youtube.png" style="width: clamp(50px, 15vw, 200px); object-fit: contain;">
-                    </a>
+                        @media screen and (max-width: 800px){
+                            h1{
+                                font-size: 0;
+                            }
+                        }
+                    </style>
+                    <div></div>
+                    <h1>Discord</h1>
+                    <h1>Instagram</h1>
+                    <h1>Github</h1>
+                    <h1>Youtube</h1>
+                    <div></div>
+
+                    <div></div>
+                    <div>
+                        <a href="https://discord.com/invite/7cU3T8zj2P" target="_blank">
+                            <img src="images/discord.png" style="width: clamp(0px, 18vw, 200px); object-fit: contain;">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="https://www.instagram.com/ymdesignclub/" target="_blank">
+                            <img src="images/instagram.png" style="width: clamp(0px, 18vw, 200px); object-fit: contain;">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="https://github.com/ymdesignclub" target="_blank">
+                            <img src="images/github.png" style="width: clamp(0px, 18vw, 200px); object-fit: contain;">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=iik25wqIuFo" target="_blank">
+                            <img src="images/youtube.png" style="width: clamp(0px, 18vw, 200px); object-fit: contain;">
+                        </a>
+                    </div>
+
+                    <div></div>
                 </div>
-                <div class="blankbox"></div>
-               
-               
-               
             </div>
-
         </div>
 
         <footer>

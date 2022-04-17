@@ -16,10 +16,11 @@
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
+    margin-top: 7vh;
 }
 
 .content .container{
-    margin-top: 50px;
+    margin-top: 7vh;
 }
 
 .content p {

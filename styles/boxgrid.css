@@ -83,13 +83,13 @@
     font-size: clamp(0px, calc(var(--box_width)/10), 1.5vw);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px){
     .grid {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        flex-direction: column;
+        flex-direction: var(--mobile_flex_direction);
     }
 
     .grid .box {
