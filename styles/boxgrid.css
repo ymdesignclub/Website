@@ -21,7 +21,7 @@
     width: clamp(var(--box_width), var(--box_width), 600px);
     height: clamp(var(--box_height), var(--box_height), 600px);
     box-shadow: var(--shadow, --invisible);
-
+    transition: all .2s ease-in-out;
 }
 
 .grid .blankbox{
@@ -51,11 +51,13 @@
     flex-wrap: wrap;
     flex-direction: column;
     height: 0;
+    transition: all .2s ease-in-out;
 }
 
 .grid .dropbox p{
     font-family: var(--future_font);
     font-size: 0rem;
+    text-align: center;
 }
 
 .grid .box img {
@@ -71,16 +73,27 @@
     font-size: 0px; /*funny that the image link will require this to have 2 sentence name, showing*/
 }
 
+.grid .box:hover{
+    transform: scale(1.08);
+}
+
 .grid .box:hover img{
-    height: calc(clamp(var(--box_height), var(--box_height), 600px) * 0.66 - clamp(10px, var(--dropbox_height), 100px));
+    /*height: calc(clamp(var(--box_height), var(--box_height), 600px) * 0.66 - clamp(10px, var(--dropbox_height), 100px));*/
+    transform: scale(1, 1/0.66)
 }
 
 .grid .box:hover .dropbox{
     height: clamp(10px, var(--dropbox_height), 100px);
 }
 
+.grid .box:hover t{
+    font-size: 0;
+    margin-top: 0;
+}
+
 .grid .box:hover .dropbox p{
-    font-size: clamp(0px, calc(var(--box_width)/10), 1.5vw);
+    font-size: 2vw;
+    text-align: center;
 }
 
 @media screen and (max-width: 800px){

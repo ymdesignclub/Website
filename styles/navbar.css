@@ -7,6 +7,8 @@
     background-color: var(--darkgrey);
     /*transform: translate(0px, -6px);*/
     align-items: center;
+
+    box-shadow: 0px 2px 15px 5px rgb(0, 0, 0);
 }
 
 .navbar .navbar-pages {
