@@ -114,3 +114,78 @@
     transform: scale(1.08);
 }
 
+.about-banner {
+    width: 100vw; 
+    background-color: var(--darkblue);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    gap: 40px;
+}
+.about-banner > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    color: var(--customwhite);  
+    text-align: left;
+
+    height: min-content;
+    
+}
+.about-banner > div > h1 {
+    font-size: clamp(20px, 8vw, 50px);
+
+    margin: 0px;
+    padding: 0px;
+}
+.about-banner > div > p {
+    font-size: clamp(0px, 5vw, 30px);
+
+    margin: 0px;
+    padding: 0px;
+    line-height: 1em;
+}
+
+.about-banner > img {
+    border-radius: 20%;
+    width: clamp(0px, 40vw,200px);
+    height: clamp(0px, 40vw,200px);
+}
+
+.about-banner a {
+    font-size: clamp(0px, 3vw, 20px);
+    color: lightgrey;  
+    text-decoration: none;
+
+    transition: all .2s ease-out;
+    margin-top: 1em;
+}
+.about-banner a:hover {
+    transform: translateX(5px);
+}
+
+/*
+<div class="horizontal-container" style="width: 100vw; background-color: var(--darkblue)">
+    <div style="margin-bottom: 0vw; margin-right: 3vw;">
+        <h1 style="color: var(--customwhite); font-size: clamp(20px, 8vw, 50px); text-align: left;">Welcome to the YM Design Club</h1>
+        <p style="text-align: left; font-size: clamp(0px, 5vw, 30px);">some about us infomation aaaaaaaaaaaaaaaa<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+    </div>
+    <div>
+        <img src="images/favicon.png" style="
+                border: 3px solid var(--invisible);
+                border-radius: 20%;
+                width: clamp(0px, 40vw,200px);
+                height: clamp(0px, 40vw,200px);
+                float: left;
+                margin: clamp(0px, 8vw, 40px);
+        ">
+    </div>
+</div>
+
+*/
