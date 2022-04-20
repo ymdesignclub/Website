@@ -51,7 +51,6 @@
     flex-wrap: wrap;
     flex-direction: column;
     height: 0;
-    transition: all .2s ease-in-out;
 }
 
 .grid .dropbox p{
@@ -151,11 +150,14 @@
     }
 
     .grid .box:hover img{
-        height: calc(clamp(calc(var(--box_width) * var(--mobile_scale)), calc(var(--box_width) * var(--mobile_scale)), 400px) * 0.66 - clamp(10px, calc(var(--dropbox_height) * var(--mobile_scale)), 100px));
+        /*height: calc(clamp(calc(var(--box_width) * var(--mobile_scale)), calc(var(--box_width) * var(--mobile_scale)), 400px) * 0.66 - clamp(10px, calc(var(--dropbox_height) * var(--mobile_scale)), 100px));*/
+        transform: scale(1, 1/0.66);
     }
 
+
     .grid .box:hover .dropbox p{
-        font-size: clamp(0px, calc(var(--box_width)/10), 4vw);;
+        /*font-size: clamp(0px, calc(var(--box_width)/10), 4vw);*/
+        font-size: calc(2vw * var(--mobile_scale));
 
     }
 
