@@ -156,6 +156,11 @@
     border-radius: 20%;
     width: clamp(0px, 40vw,200px);
     height: clamp(0px, 40vw,200px);
+    transition: all .2s ease-out;
+}
+
+.about-banner img:hover{
+    transform: scale(1.08)
 }
 
 .about-banner a {
