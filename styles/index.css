@@ -123,8 +123,7 @@
 
     padding-top: 30px;
     padding-bottom: 30px;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin: 25vh 0;
 
     gap: 40px;
 }
@@ -170,23 +169,3 @@
 .about-banner a:hover {
     transform: translateX(5px);
 }
-
-/*
-<div class="horizontal-container" style="width: 100vw; background-color: var(--darkblue)">
-    <div style="margin-bottom: 0vw; margin-right: 3vw;">
-        <h1 style="color: var(--customwhite); font-size: clamp(20px, 8vw, 50px); text-align: left;">Welcome to the YM Design Club</h1>
-        <p style="text-align: left; font-size: clamp(0px, 5vw, 30px);">some about us infomation aaaaaaaaaaaaaaaa<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-    </div>
-    <div>
-        <img src="images/favicon.png" style="
-                border: 3px solid var(--invisible);
-                border-radius: 20%;
-                width: clamp(0px, 40vw,200px);
-                height: clamp(0px, 40vw,200px);
-                float: left;
-                margin: clamp(0px, 8vw, 40px);
-        ">
-    </div>
-</div>
-
-*/
