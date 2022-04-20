@@ -1,3 +1,13 @@
 .content .container{
     margin-top: 7vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.year-header {
+    font-family: var(--future_font);
+    font-size: 10vw;
+}
+
