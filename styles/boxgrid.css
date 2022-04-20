@@ -132,9 +132,9 @@
 
     .grid .box t{
         text-align: center;
-        transform: Translate(0, calc(var(--box_height) * var(--mobile_scale) * -0.060764));
-        margin-top: calc(clamp(calc(var(--box_width) * var(--mobile_scale)), calc(var(--box_width) * var(--mobile_scale)), 400px) * 0.10);
-        font-size: clamp(10px, calc(var(--box_width)/7.5), 5vw);
+        /*transform: Translate(0, calc(var(--box_height) * var(--mobile_scale) * -0.060764));*/
+        /*margin-top: calc(clamp(calc(var(--box_width) * var(--mobile_scale)), calc(var(--box_width) * var(--mobile_scale)), 400px) * 0.10);*/
+        font-size: 5vw; /*clamp(10px, calc(var(--box_width)/7.5), 5vw);*/
     }
 
     .grid .box h1{
@@ -158,6 +158,7 @@
     .grid .box:hover .dropbox p{
         /*font-size: clamp(0px, calc(var(--box_width)/10), 4vw);*/
         font-size: calc(2vw * var(--mobile_scale));
+        text-align: center;
 
     }
 
