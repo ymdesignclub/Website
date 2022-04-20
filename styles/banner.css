@@ -25,4 +25,10 @@
   height: 45px;
   float: left;
   margin: 10px;
+
+  transition: width 10s ease-in-out;
+
+}
+.header .banner img:hover {
+  transform: scale(1.05);
 }
