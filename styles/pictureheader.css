@@ -29,6 +29,7 @@
     /*text-shadow: -2px -2px 0 cyan, 3px 3px 0 magenta;*/
 }
 
+/* I commented out this css since it seems to be useless; there is nothing with an .image class in the header [Bryan]
 .header .image img{
     height: 780px;
     width: 100%;
@@ -52,3 +53,4 @@
     width: 60%;
     padding: 30px;
 }
+*/
