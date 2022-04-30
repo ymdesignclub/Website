@@ -173,7 +173,7 @@
     transform: translateX(-2ch);
 }
 #about-link::before {
-    transition: all .2s ease-out;
+    transition: all .3s ease-out;
 
     content: ">>> ";
     opacity: 0;
