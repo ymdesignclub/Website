@@ -163,14 +163,26 @@
     transform: scale(1.08)
 }
 
-.about-banner a {
+#about-link {
     font-size: clamp(0px, 3vw, 20px);
     color: lightgrey;  
     text-decoration: none;
 
     transition: all .2s ease-out;
     margin-top: 1em;
+    transform: translateX(-2ch);
 }
-.about-banner a:hover {
-    transform: translateX(5px);
+#about-link::before {
+    transition: all .2s ease-out;
+
+    content: ">>> ";
+    opacity: 0;
+}
+
+#about-link:hover::before {
+    opacity: 1;
+}
+#about-link:hover {
+    transform: translateX(0);
+    color: var(--customWhite);
 }
