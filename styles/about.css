@@ -5,6 +5,10 @@
     padding:0;
 }
 
+:root {
+    scroll-behavior: smooth; /* so that scrolling is smooth when user jumps to a box */
+}
+
 hr.solid {
     border-top: 3px solid black;
     margin-bottom: 28px;
