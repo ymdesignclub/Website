@@ -9,6 +9,11 @@
     align-items: center;
 
     box-shadow: 0px 2px 15px 5px rgb(0, 0, 0);
+
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
 }
 
 .navbar .navbar-pages {
@@ -47,13 +52,6 @@
 
 .navbar .navbar-pages a:hover {
     background-color: #262626;
-}
-
-.sticky {
-    position: sticky;
-    top: 0px;
-    width: 100%;
-    z-index: 2;
 }
 
 /* this is the css for when the join button was in the navbar */
